@@ -8,7 +8,7 @@ export default function App() {
       <div className="container">
         <Weather />
         <footer>
-          <a href="" target="blank">
+          <a href="#" target="blank">
             Git Hub
           </a>
         </footer>
