@@ -15,13 +15,11 @@ export default function Weather(props) {
       ready: true,
       city: response.data.city,
       date: new Date(response.data.time * 1000),
-      // city: response.data.city,
+
       temperature: response.data.temperature.current,
       wind: response.data.wind.speed,
-      icon: response.data.condition.icon,
       humidity: response.data.temperature.humidity,
-      iconUrl:
-        "http://shecodes-assets.s3.amazonaws.com/api/weather/icons/clear-sky-night.png",
+      iconUrl: `http://shecodes-assets.s3.amazonaws.com/api/weather/icons/${response.data.condition.icon}.png`,
       description: response.data.condition.description,
     });
   }
