@@ -2,7 +2,15 @@
   text-align: center;
 }
 
+.justify-sb {
+  justify-content: space-between;
+}
+
 .WeatherForecast-temp-min {
   opacity: 0.6;
   margin-left: 5px;
+}
+
+.flex {
+  display: flex;
 }
