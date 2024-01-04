@@ -1,6 +1,6 @@
-import React from "react";
-import Weather from "./Weather";
-import "./App.css";
+import React from 'react';
+import Weather from './Weather';
+import './App.css';
 
 export default function App() {
   return (
@@ -8,7 +8,10 @@ export default function App() {
       <div className="container">
         <Weather defaultCity="New York" />
         <footer>
-          <a href="#" target="blank">
+          <a
+            href="https://github.com/orchid-cloud/new-weather-app.git"
+            target="blank"
+          >
             Git Hub
           </a>
         </footer>
